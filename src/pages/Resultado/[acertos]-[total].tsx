@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import '../../app/globals.css';
-import * as C from './styles';
+import * as C from '../../pagesStyled/ResultadoStyles';
 import { useRouter } from 'next/router';
 import { Card } from '../../_components/Card/index';
 
