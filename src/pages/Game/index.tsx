@@ -4,10 +4,10 @@ import React, { FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 
 import '../../app/globals.css';
-import * as C from '../pages/Game/gameStyles';
-import { Card } from '../_components/Card/index';
-import { Questions } from '../_components/Questions'
-import { questionList } from '../data/data';
+import * as C from '../../pagesStyled/gameStyles';
+import { Card } from '../../_components/Card/index';
+import { Questions } from '../../_components/Questions'
+import { questionList } from '../../data/data';
 import { AlternativesType } from '@/types/AlternativesType';
 
 
