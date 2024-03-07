@@ -1,10 +1,11 @@
 "use client";
+import React from 'react';
 import '../../app/globals.css';
 import * as C from './pageStyle';
 import { useRouter } from 'next/router';
 import { Card } from '../../_components/Card/index';
 
-export default function Resultado () {
+export default function Resultado()  {
     const router = useRouter();
     const { acertos, totalQuestions } = router.query;
 

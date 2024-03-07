@@ -1,4 +1,5 @@
-"use client"
+"use client";
+import React from 'react';
 import * as C from './pageStyle';
 import { Card } from '../_components/Card/index';
 import Link from 'next/link';
