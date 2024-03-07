@@ -4,7 +4,7 @@ import React, { FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 
 import '../../app/globals.css';
-import * as C from './pageStyle';
+import * as C from './styles';
 import { Card } from '../../_components/Card/index';
 import { Questions } from '../../_components/Questions'
 import { questionList } from '../../data/data';
